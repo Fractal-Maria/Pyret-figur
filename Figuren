@@ -1,0 +1,5 @@
+foorste = circle(100, "solid", "blue")
+andre = rectangle(200, 50, "solid", "purple")
+tredje = rectangle(50, 20, "solid", "red")
+fjerde = overlay-xy(andre, -100, -50, foorste)
+overlay-xy(tredje, -240, -30, fjerde)
